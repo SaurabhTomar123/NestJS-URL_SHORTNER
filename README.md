@@ -9,21 +9,6 @@
 
 ## Description
 This repository hosts a URL shortener service developed using NestJS, a progressive Node.js framework. The primary purpose of this project is to shorten long URLs into concise, manageable links. Additionally, it offers analytical insights into the usage of these shortened URLs.
-
-## Installation
-1. Clone the repository to your local machine:
-```bash
-git clone https://github.com/Aman-Paul/url-shortner-nestjs.git
-```
-
-2. Navigate to the project directory:
-```bash
-cd url-shortner-nestjs
-```
-
-3. Install dependencies:
-```bash
-npm install
 ```
 
 ## Migrate schemas to the connected db
@@ -197,11 +182,10 @@ To ensure scalability and accommodate increasing user demand, we employ the foll
 - **Database Sharding :** As the volume of data grows, we employ database sharding techniques to horizontally partition our database across multiple servers. This allows us to distribute the database workload and queries more evenly, preventing any single database server from becoming a bottleneck.
 - **Promisify Asynchronous functions :** Promisifying asynchronous functions throughout our codebase ensures a consistent and standardized approach to handling asynchronous operations. This improves code readability, simplifies error handling, and enhances composability, making our codebase more scalable and maintainable as the system grows.
 
-## Stay in touch
 
-- Author - [Aman Paul](https://aman-paul.netlify.com/)
-- Github - [https://github.com/Aman-Paul](https://github.com/Aman-Paul)
-- LinkedIn - [My LinkedIn Profile](https://www.linkedin.com/in/aman-paul-js-stack/)
+
+-Credit : This repo is modification of amit Paul nest js url shortner  - [https://github.com/Aman-Paul](https://github.com/Aman-Paul)
+  
 
 ## License
 Nest is [MIT licensed](LICENSE).
