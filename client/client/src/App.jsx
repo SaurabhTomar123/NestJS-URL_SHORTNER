@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -20,7 +19,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await fetch('/short-url', {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/short-url`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url }),
